@@ -1,0 +1,32 @@
+{
+    "name": "router_plus_idu_odu_200",
+    "version": "1.0.0",
+    "description": "Statistics from Router Plus idu/odu 200",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node ./src/app.ts",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/damianchojna/router_plus_idu_odu_200.git"
+    },
+    "author": "Damian Chojna",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/damianchojna/router_plus_idu_odu_200/issues"
+    },
+    "homepage": "https://github.com/damianchojna/router_plus_idu_odu_200#readme",
+    "devDependencies": {
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3",
+        "@types/node": "^14.14.14",
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "conflakes": "^3.3.2",
+        "influx": "^5.6.3"
+    }
+}

@@ -1,0 +1,4 @@
+router:
+    login: admin
+    password: admin
+    host: http://plus.lh
